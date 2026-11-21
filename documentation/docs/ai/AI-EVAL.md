@@ -8,7 +8,7 @@ Run the comparison from the repository root with
 `ai/.venv/Scripts/python.exe ai/evaluate_ai.py` on Windows.
 The runner starts its own local server on an available port. Inputs come from the
 repository fixtures. Each case's expected and returned IDs or tags are saved in
-[ai_evaluation.json](results-word2vec/ai_evaluation.json).
+ai_evaluation.json.
 
 | Feature | Cases | Metric | AI | TF-IDF baseline |
 |---|---:|---|---:|---:|
@@ -52,14 +52,13 @@ scenarios are small, and other spots may also be reasonable suggestions. This
 measures ranking and tag quality on the supplied cases. Event retrieval,
 keyword-fallback availability, popularity for new members, and feedback from
 real users require separate checks.
-[Fort Smith relevance labels](data/evaluation_labels.json)
 
 ## Earlier Word2Vec feasibility results
 
 These results describe the current pretrained Word2Vec experiment, replacing the
 previous PyTorch report. The source measurements are in
-[metrics.json](results-word2vec/metrics.json) and the individual query results are in
-[rankings.csv](results-word2vec/rankings.csv).
+metrics.json and the individual query results are in
+rankings.csv.
 
 ## What was tested
 
