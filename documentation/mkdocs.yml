@@ -48,8 +48,8 @@ nav:
   - Setup:
       - Run locally: setup/local.md
       - Configuration: setup/configuration.md
-  - AI Features:
-      - Overview: ai/index.md
+  - AI:
+      - Evaluation: ai/AI-EVAL.md
   - API:
       - Overview: api/index.md
 
